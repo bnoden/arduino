@@ -11,6 +11,7 @@ void setup() {
   pinMode(13, OUTPUT);
   digitalWrite(13, HIGH);
   Serial.begin(9600);
+  Serial << "***********START blink test***********\n";
 }
 
 // the loop function runs over and over again forever
@@ -20,6 +21,9 @@ void loop() {
   blinkOff(13, 300);
   blinks++;
   Serial << "Blink: " << blinks << '\n';
+  if (blinks == MAX_BLINKS) {
+    Serial << "***********END blink test***********";
+    }
  }
 }
 
