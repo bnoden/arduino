@@ -1,1 +1,7 @@
-EPROM - erasable programmable read-only memory
+EEPROM - electrically erasable programmable read-only memory
+
+RX<-0 = receive
+TX->1 = transmit
+
+quartz crystal oscillator - ticks 16 million times/second, one mathematical operation each tick
+
