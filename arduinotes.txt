@@ -1,7 +1,22 @@
 EEPROM - electrically erasable programmable read-only memory
+	-but not really read-only, can write to it
 
 RX<-0 = receive
 TX->1 = transmit
 
 quartz crystal oscillator - ticks 16 million times/second, one mathematical operation each tick
+
+Ohm's Law
+	I = V/R
+		current = voltage/resistance
+			A = V/Ω
+				amperes = voltage/ohms
+	mA = .001 amperes (1/1000)
+
+P = I*V
+	watts = amps*voltage
+P = (V^2)/R
+	watts = volts^2/resistance
+
+
 
