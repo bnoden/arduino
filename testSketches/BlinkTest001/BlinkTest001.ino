@@ -1,3 +1,5 @@
+#include <SimpleDHT.h>
+
 template<class T> inline Print &operator <<(Print &obj, T arg) { obj.print(arg); return obj; }
 const int MAX_BLINKS = 12;
 int blinks = 0;

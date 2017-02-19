@@ -19,4 +19,7 @@ P = (V^2)/R
 	watts = volts^2/resistance
 
 
+For Uno: interrupt 0 is D2, 1 is D3 - the only 2 interrupts allowed
+For Due: All pins can be interrupts
+
 
